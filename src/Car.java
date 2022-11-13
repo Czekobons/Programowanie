@@ -17,4 +17,7 @@ public class Car {
         Car aclone = new Car(this.producer, this.model, this.yearOfProduction, this.value);
         return aclone;
     }
+    public String toString() {
+        return producer+" "+model+", Produced in: "+yearOfProduction+" cost "+value;
+    }
 }

@@ -67,5 +67,9 @@ public class Human {
         }
 
     }
+    public String toString() {
+        return firstName+" "+lastName+", Year of Birth: "+yearOfBirth+", Salary: "+salary;
+    }
+
 
 }
