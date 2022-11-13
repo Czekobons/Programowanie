@@ -1,3 +1,5 @@
+package devices;
+
 public class Phone {
     public final String producer;
     public final String model;
