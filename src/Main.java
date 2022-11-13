@@ -8,6 +8,8 @@ public class Main {
         }
         dog.feed();
         dog.takeForWalk();
+        Car tesla = new Car("Tesla", "Model 3", 2018);
+        Human me = new Human("Patryk", "Nowak", 1980);
+        me.car = new Car("Tesla", "Model S", 2007);
     }
-
 }

@@ -1,13 +1,15 @@
 public class Animal {
     final String species;
     private Double weight;
+    boolean isAlive;
 
     public Animal(String species, Double weight) {
         this.species = species;
         this.weight = weight;
+        isAlive = true;
     }
     public void feed() {
-        if(weight > 0) {
+        if(isAlive) {
             weight+=2;
             System.out.println("Thanks for food.");
         }
@@ -25,6 +27,7 @@ public class Animal {
             if(weight < 0) {
                 weight = 0.0;
             }
+            isAlive=false;
         } else  {
             System.out.println("You are crazy, I'm already dead!");
         }
