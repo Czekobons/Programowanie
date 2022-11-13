@@ -1,17 +1,21 @@
 package devices;
 
-public class Phone {
-    public final String producer;
-    public final String model;
-    public final Integer yearOfProduction;
+public class Phone extends Device{
+
     public double screenSize;
     public Integer storage;
-
     public Phone(String producer, String model, Integer yearOfProduction) {
-        this.producer = producer;
-        this.model = model;
-        this.yearOfProduction =yearOfProduction;
+        super(producer, model, yearOfProduction);
 
+    }
+    public void turnOn() {
+        System.out.println("I'm pushing the button.");
+        System.out.println("Waiting...");
+        System.out.println("Waiting...");
+        System.out.println("Waiting...");
+        System.out.println("Waiting...");
+        System.out.println("Phone is turned on.");
+        isOn = true;
     }
     public String toString() {
         return producer+" "+model+", "+yearOfProduction;

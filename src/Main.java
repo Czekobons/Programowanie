@@ -28,5 +28,7 @@ public class Main {
         System.out.println(tesla2);
         System.out.println(me);
         System.out.println(onePlus);
+        onePlus.turnOn();
+        me.getCar().turnOn();
     }
 }

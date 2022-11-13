@@ -1,23 +1,23 @@
 package devices;
 
-public class Car {
-    public final String producer;
-    public final String model;
-    public Integer yearOfProduction;
+public class Car extends Device{
     public Double value;
     public String color;
     public Double power;
 
     public Car(String producer, String model, Integer yearOfProduction, Double value)
     {
-        this.producer = producer;
-        this.model = model;
-        this.yearOfProduction = yearOfProduction;
+        super(producer, model, yearOfProduction);
         this.value = value;
     }
     public Object clone() {
         Car aclone = new Car(this.producer, this.model, this.yearOfProduction, this.value);
         return aclone;
+    }
+    public void turnOn() {
+        System.out.println("I turn the key.");
+        System.out.println("Enigine is running now.");
+        isOn = true;
     }
     public String toString() {
         return producer+" "+model+", Produced in: "+yearOfProduction+" cost "+value;
