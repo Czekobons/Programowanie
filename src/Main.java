@@ -38,6 +38,7 @@ public class Main {
         me.cash = 1000.0;
         dog.sell(he, me, 200.0);
         dog.sell(he, me, 200.0);
+        onePlus.installAnApp("https://unsplash.com/photos/aqM730y624E/download?force=true");
 
     }
 }

@@ -1,6 +1,7 @@
 package creatures;
 
 import devices.Car;
+import devices.Device;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -15,6 +16,8 @@ public class Human {
     public Double cash;
     public Animal pet;
     private Car car;
+
+    public Device device;
     private Date salaryCheckDate;
 
     public Human(String firstName, String lastName, int yearOfBirth, Double salary) {
@@ -80,6 +83,10 @@ public class Human {
     public Double getCash() {
         return cash;
     }
+    public void addCash(Double cash) {
+        cash += cash;
+    }
+
 
 
 }

@@ -52,7 +52,7 @@ public abstract class Animal implements Sellable, Feedable {
         if(seller.pet != this) {
             System.out.println("You can't sell animal that you not own.");
         }
-        else if(buyer.cash < price) {
+        else if(buyer.getCash() < price) {
             System.out.println("You don't have enough money to complete this transaction!");
 
         }
@@ -61,9 +61,9 @@ public abstract class Animal implements Sellable, Feedable {
         }
         else {
             System.out.println("Transaction started...");
-            buyer.cash -= price;
+            buyer.addCash(-price);
             System.out.println("Transfering money...");
-            seller.cash += price;
+            seller.addCash(price);
             buyer.pet = this;
             seller.pet = null;
             System.out.println("Transaction completed.");
