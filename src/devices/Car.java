@@ -1,5 +1,7 @@
 package devices;
 
+import creatures.Human;
+
 public class Car extends Device{
     public Double value;
     public String color;
@@ -21,5 +23,10 @@ public class Car extends Device{
     }
     public String toString() {
         return producer+" "+model+", Produced in: "+yearOfProduction+" cost "+value;
+    }
+
+    @Override
+    public void sell(Human seller, Human buyer, Double price) {
+
     }
 }

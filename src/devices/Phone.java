@@ -1,5 +1,7 @@
 package devices;
 
+import creatures.Human;
+
 public class Phone extends Device{
 
     public double screenSize;
@@ -19,5 +21,10 @@ public class Phone extends Device{
     }
     public String toString() {
         return producer+" "+model+", "+yearOfProduction;
+    }
+
+    @Override
+    public void sell(Human seller, Human buyer, Double price) {
+
     }
 }

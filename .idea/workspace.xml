@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac241130-86ee-446c-8590-e6746dec1498" name="Changes" comment="Programowanie Java ININ2_PR1 Zadanie 6">
+    <list default="true" id="ac241130-86ee-446c-8590-e6746dec1498" name="Changes" comment="Programowanie Java ININ2_PR1 Zadanie 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/devices/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Device.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/devices/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Phone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,7 +41,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Czekobons/eclipse-workspace/ININ2_PR.1",
+    "last_opened_file_path": "C:/Users/Czekobons/eclipse-workspace/Programowanie Java ININ2 PR1",
     "settings.editor.selected.configurable": "application.passwordSafe"
   }
 }]]></component>
@@ -134,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668362897771</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Programowanie Java ININ2_PR1 Zadanie 7">
+      <created>1668376016748</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668376016748</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,17 +164,7 @@
     <MESSAGE value="Programowanie Java ININ2_PR1 Zadanie 1" />
     <MESSAGE value="Programowanie Java ININ2_PR1 Zadanie 2" />
     <MESSAGE value="Programowanie Java ININ2_PR1 Zadanie 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programowanie Java ININ2_PR1 Zadanie 6" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/devices/Car.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Programowanie Java ININ2_PR1 Zadanie 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programowanie Java ININ2_PR1 Zadanie 7" />
   </component>
 </project>

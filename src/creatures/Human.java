@@ -1,3 +1,5 @@
+package creatures;
+
 import devices.Car;
 
 import java.util.Calendar;
@@ -10,6 +12,7 @@ public class Human {
     public Double weight;
     private Double salary;
     private Double lastSalary;
+    public Double cash;
     public Animal pet;
     private Car car;
     private Date salaryCheckDate;
@@ -19,6 +22,7 @@ public class Human {
         this.lastName = lastName;
         this.yearOfBirth = yearOfBirth;
         this.salary = salary;
+        cash = 0.0;
     }
     public Double getSalaryInfo() {
 
@@ -71,6 +75,10 @@ public class Human {
     }
     public String toString() {
         return firstName+" "+lastName+", Year of Birth: "+yearOfBirth+", Salary: "+salary;
+    }
+
+    public Double getCash() {
+        return cash;
     }
 
 
